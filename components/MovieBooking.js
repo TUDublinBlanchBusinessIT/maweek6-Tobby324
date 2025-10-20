@@ -11,7 +11,7 @@ export default function MovieBooking({screenstyle}) {
   const [balcony, setBalcony] = useState(false);
   const [movieDate, setMoviedate] = useState(new Date());
   const [movieList, setMovieList] = useState([
-   {'id': 1, "title": "Kneecap", "age": 16},
+   {'id': 1, "title": "Superman", "age": 16},
    {'id' : 2, "title": "Joker, Folie a Deux", "age": 18}, 
    {'id': 3, "title": "Deadpool and Wolverine", "age": 12}
   ]);
